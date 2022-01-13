@@ -1,7 +1,7 @@
 gl.setup(NATIVE_WIDTH, NATIVE_HEIGHT)
 
 util.resource_loader{
-    "CurryGoat.jpeg",
+    "CurryGoat.png",
     "shader.frag",
 }
 
