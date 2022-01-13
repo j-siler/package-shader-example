@@ -14,7 +14,7 @@ function node.render()
         -- This uses os.time(), the real time. As a side effect, all Pis with
         -- proper synced time will have the effect synced.
        -- Effect = math.cos(os.time()*2)*3
-       Effect = math.tan(os.time()*2)*10
+       Effect = math.tan(os.time()*3)*50
     }
     lua:draw(util.scale_into(WIDTH, HEIGHT, 400, 400))
 end
